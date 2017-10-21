@@ -1,5 +1,5 @@
 {
-  "name": "rrdemo1",
+  "name": "react-redux-signupapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,11 +13,6 @@
     "react-scripts": "0.9.5",
     "redux": "^3.6.0",
     "redux-form": "^7.0.4"  
-  },
-  "devDependencies": {
-    "enzyme": "^2.9.1",
-    "react-test-renderer": "^15.6.1",
-    "redux-test-utils": "^0.1.2"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
