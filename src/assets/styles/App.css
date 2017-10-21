@@ -1,0 +1,167 @@
+body {
+  font-family: 'Roboto', sans-serif !important;
+  color: #5f656d;
+  background-color: #f7f7f7;
+}
+input.app-form-control {
+  border: 0px;
+  outline: none;
+  border-bottom: 1px solid #d0d0d0;
+  padding: 20px 10px;
+}
+.app {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  background: #ffffff;
+  min-height: 500px;
+  height: 500px;
+  margin-top: 50px;
+  min-width: 300px;
+  width: 33%;
+  border-radius: 6px;
+  border: 1px solid #d0d0d0;
+}
+.app-header {
+  height: 18px;
+  padding: 25px;
+  color: #4a90e2;
+  font-size: 1.3em;
+}
+.app-progress-container {
+  width: 100%;
+  height: 6px;
+  border-top: 1px solid #d0d0d0;
+  border-bottom: 1px solid #d0d0d0;
+}
+.app-progress-bar {
+  height: 6px;
+  background: #4a90e2;
+}
+.app-main-container {
+  min-height: 426px;
+  padding-top: 40px;
+}
+.app-width90p {
+  width: 85%;
+}
+.app-footer {
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0px;
+  height: 25px;
+  padding: 20px;
+  width: 90%;
+  display: flex;
+  border-top: 1px solid #d0d0d0;
+}
+.error {
+  color: red !important;
+  font-size: 12px;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+.app-button-arrow {
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+.app-footer button {
+  border: 0px;
+  background: transparent;
+  outline: none;
+  font-size: 1.1em;
+  color: #4a90e2;
+}
+.app-footer .next {
+  position: absolute;
+  right: 10px;
+}
+.app-footer .back {
+  color: #5f656d;
+}
+.app-step2-form-control-labels {
+  font-size: 0.75em;
+}
+.app-date-part-container {
+  display: flex;
+  width: 85%;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.app-date-part-container > div {
+  width: 100%;
+}
+.app-date-part-container input {
+  border: 1px solid #d0d0d0;
+  border-radius: 2px;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+.app-radios-container {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+.app-radio-button {
+  position: absolute;
+  left: -9999em;
+  top: -9999em;
+}
+.app-radio-button + label {
+  float: left;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  border: 1px solid #dfdfdf;
+  margin-right: -1px;
+  font-size: 12px;
+  padding: 10px;
+  width: 25%;
+}
+.app-radio-button + label:first-of-type {
+  border-radius: 3px 0 0 3px;
+}
+.app-radio-button + label:last-of-type {
+  border-radius: 0 3px 3px 0;
+}
+.app-radio-button:checked + label {
+  color: #fff;
+  background-color: #4a86f8;
+}
+.dropdown {
+  margin-top: 10px;
+  width: 90%;
+  border: 1px solid #dfdfdf;
+  outline: none;
+  padding: 10px;
+  height: 40px;
+  background: #fff;
+}
+#app-step3-tick {
+  position: relative;
+  margin: 50px auto 40px auto;
+  background: #b8e986;
+  color: #fff;
+  font-size: 10em;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 200px;
+}
+#app-step3-button {
+  padding: 20px;
+  border: 1px solid #4a90e2;
+  border-radius: 6px;
+  color: #4a90e2;
+}
+#app-step3-button-arrow {
+  font-size: 2.5em;
+  vertical-align: sub;
+}
